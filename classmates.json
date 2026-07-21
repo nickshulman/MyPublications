@@ -1,0 +1,11 @@
+{
+  "_notes": "Links to classmates' and instructors' workshop publication pages (added 2026-07-21). Edit this list freely, then re-run build_page.py to update the Workshop directory section. Only live GitHub Pages URLs were included; classmates who hadn't published yet can be added later.",
+  "links": [
+    {"name": "Lindsay Pino", "url": "https://lindsaypino.github.io/MyPublications/"},
+    {"name": "Georgia Tsambos", "url": "https://gtsambos.github.io/MyPublications/"},
+    {"name": "Christy LaFlamme", "url": "https://christylaflamme.github.io/MyPublications/"},
+    {"name": "Brendan MacLean", "url": "https://gurizo.github.io/MyPublications/"},
+    {"name": "Michael J. MacCoss", "url": "https://vagisha.github.io/MyPublications-3/"},
+    {"name": "MacCoss Publications", "url": "https://markbelangerinwa.github.io/MyPublications/"}
+  ]
+}

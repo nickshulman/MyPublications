@@ -118,6 +118,20 @@ def bar_chart(counts, width=640, height=300):
     )
 
 
+def directory_html(links):
+    """Render the Workshop directory: pill links to classmates' pages."""
+    if not links:
+        return ""
+    chips = "".join(
+        f"<a class='chip' href='{html.escape(l['url'])}' target='_blank' rel='noopener'>"
+        f"{html.escape(l['name'])}</a>"
+        for l in links
+    )
+    return ("<section class='panel dir'>"
+            "<h2>Workshop directory</h2>"
+            f"<div class='chips'>{chips}</div></section>")
+
+
 def paper_rows(papers):
     rows = ""
     for p in sorted(papers, key=lambda p: p["cited_by_count"] or 0, reverse=True):
@@ -144,6 +158,12 @@ def main():
     with open(os.path.join(HERE, "papers.json"), encoding="utf-8") as f:
         data = json.load(f)
     papers = data["papers"]
+
+    classmates = []
+    cpath = os.path.join(HERE, "classmates.json")
+    if os.path.exists(cpath):
+        with open(cpath, encoding="utf-8") as f:
+            classmates = json.load(f).get("links", [])
 
     citations = [p["cited_by_count"] or 0 for p in papers]
     total_papers = len(papers)
@@ -180,6 +200,7 @@ def main():
         span=span,
         area=area_chart(cumulative),
         bars=bar_chart(ppy_series),
+        directory=directory_html(classmates),
         rows=paper_rows(papers),
     )
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as f:
@@ -251,6 +272,11 @@ TEMPLATE = """<!DOCTYPE html>
   .pcite {{ color: var(--accent); font-weight: 600; }}
   .badge {{ background: var(--badge-bg); color: var(--accent); border-radius: 999px;
     padding: 2px 10px; font-size: .78rem; font-weight: 600; text-transform: capitalize; }}
+  .dir {{ margin: 24px 0 0; }}
+  .chips {{ display: flex; flex-wrap: wrap; gap: 10px; }}
+  .chip {{ background: var(--badge-bg); color: var(--accent); border: 1px solid var(--border);
+    border-radius: 999px; padding: 8px 14px; text-decoration: none; font-weight: 600; font-size: .9rem; }}
+  .chip:hover {{ background: var(--accent); color: #fff; }}
   footer {{ color: var(--muted); font-size: .85rem; margin-top: 40px; text-align: center; }}
   footer a {{ color: var(--accent); }}
 </style>
@@ -270,6 +296,8 @@ TEMPLATE = """<!DOCTYPE html>
     <div class="stat"><div class="num">{total_citations}</div><div class="lab">Citations</div></div>
     <div class="stat"><div class="num">{h_index}</div><div class="lab">h-index</div></div>
   </section>
+
+  {directory}
 
   <section class="charts">
     <div class="panel">
