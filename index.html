@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nicholas Shulman — Publications</title>
+<style>
+  :root {
+    --accent: #4b2e83;
+    --bg: #f6f7fb; --card: #ffffff; --text: #16181d; --muted: #666b76;
+    --border: #e6e8ef; --grid: #eceef4; --badge-bg: #efe9f7;
+  }
+  html[data-theme="dark"] {
+    --bg: #0f1116; --card: #191c24; --text: #eef0f6; --muted: #9aa0ad;
+    --border: #262a34; --grid: #22262f; --badge-bg: #2a2140; --accent: #b79cf0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 32px 20px 64px; }
+  header { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
+  h1 { font-size: clamp(2rem, 5vw, 3.2rem); margin: 0; letter-spacing: -0.02em; line-height: 1.05; }
+  h1 .hl { color: var(--accent); }
+  .tagline { color: var(--muted); font-size: 1.05rem; margin: 8px 0 0; }
+  .toggle {
+    flex: none; cursor: pointer; border: 1px solid var(--border); background: var(--card);
+    color: var(--text); border-radius: 999px; padding: 8px 14px; font-size: .9rem;
+  }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 32px 0; }
+  .stat {
+    background: var(--card); border: 1px solid var(--border); border-radius: 16px;
+    padding: 22px; text-align: center;
+  }
+  .stat .num { font-size: clamp(1.8rem, 5vw, 2.8rem); font-weight: 800; color: var(--accent);
+    letter-spacing: -0.02em; }
+  .stat .lab { color: var(--muted); font-size: .9rem; text-transform: uppercase;
+    letter-spacing: .05em; margin-top: 4px; }
+  .charts { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 720px) { .stats, .charts { grid-template-columns: 1fr; } }
+  .panel { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px; }
+  .panel h2 { margin: 0 0 12px; font-size: 1.05rem; }
+  .chart { width: 100%; height: auto; }
+  .area { fill: var(--accent); opacity: .18; }
+  .line { fill: none; stroke: var(--accent); stroke-width: 2.5; }
+  .bar { fill: var(--accent); opacity: .85; rx: 2; }
+  .grid { stroke: var(--grid); stroke-width: 1; }
+  .ylab { fill: var(--muted); font-size: 11px; text-anchor: end; }
+  .xlab { fill: var(--muted); font-size: 11px; text-anchor: middle; }
+  h2.section { margin: 40px 0 4px; font-size: 1.3rem; }
+  .count { color: var(--muted); margin: 0 0 12px; }
+  ul.papers { list-style: none; padding: 0; margin: 0; }
+  .paper { background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+    padding: 16px 18px; margin-bottom: 12px; }
+  .ptitle { color: var(--text); text-decoration: none; font-weight: 650; font-size: 1.05rem; }
+  .ptitle:hover { color: var(--accent); text-decoration: underline; }
+  .pmeta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 8px;
+    color: var(--muted); font-size: .9rem; }
+  .pcite { color: var(--accent); font-weight: 600; }
+  .badge { background: var(--badge-bg); color: var(--accent); border-radius: 999px;
+    padding: 2px 10px; font-size: .78rem; font-weight: 600; text-transform: capitalize; }
+  footer { color: var(--muted); font-size: .85rem; margin-top: 40px; text-align: center; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Nicholas Shulman</h1>
+      <p class="tagline">Software developer on Skyline — MacCoss Lab, UW Genome Sciences</p>
+    </div>
+    <button class="toggle" id="themeToggle" aria-label="Toggle dark mode">🌙 Dark</button>
+  </header>
+
+  <section class="stats">
+    <div class="stat"><div class="num">31</div><div class="lab">Publications</div></div>
+    <div class="stat"><div class="num">11,360</div><div class="lab">Citations</div></div>
+    <div class="stat"><div class="num">17</div><div class="lab">h-index</div></div>
+  </section>
+
+  <section class="charts">
+    <div class="panel">
+      <h2>Citations over time</h2>
+      <svg viewBox='0 0 640 300' class='chart' role='img' aria-label='Cumulative citations over time'><line x1='52' y1='264.0' x2='624' y2='264.0' class='grid'/><text x='44' y='268.0' class='ylab'>0</text><line x1='52' y1='140.0' x2='624' y2='140.0' class='grid'/><text x='44' y='144.0' class='ylab'>5636</text><line x1='52' y1='16.0' x2='624' y2='16.0' class='grid'/><text x='44' y='20.0' class='ylab'>11271</text><path d='M 52.0,264.0 L 52.0,261.8 L 92.9,257.3 L 133.7,249.3 L 174.6,239.0 L 215.4,226.7 L 256.3,214.1 L 297.1,200.2 L 338.0,182.6 L 378.9,159.7 L 419.7,136.0 L 460.6,112.3 L 501.4,86.5 L 542.3,56.5 L 583.1,29.4 L 624.0,16.0 L 624.0,264.0 Z' class='area'/><polyline points='52.0,261.8 92.9,257.3 133.7,249.3 174.6,239.0 215.4,226.7 256.3,214.1 297.1,200.2 338.0,182.6 378.9,159.7 419.7,136.0 460.6,112.3 501.4,86.5 542.3,56.5 583.1,29.4 624.0,16.0' class='line'/><text x='52.0' y='288' class='xlab'>2012</text><text x='133.7' y='288' class='xlab'>2014</text><text x='215.4' y='288' class='xlab'>2016</text><text x='297.1' y='288' class='xlab'>2018</text><text x='378.9' y='288' class='xlab'>2020</text><text x='460.6' y='288' class='xlab'>2022</text><text x='542.3' y='288' class='xlab'>2024</text><text x='624.0' y='288' class='xlab'>2026</text></svg>
+    </div>
+    <div class="panel">
+      <h2>Papers per year</h2>
+      <svg viewBox='0 0 640 300' class='chart' role='img' aria-label='Papers published per year'><line x1='52' y1='264.0' x2='624' y2='264.0' class='grid'/><text x='44' y='268.0' class='ylab'>0</text><line x1='52' y1='140.0' x2='624' y2='140.0' class='grid'/><text x='44' y='144.0' class='ylab'>2</text><line x1='52' y1='16.0' x2='624' y2='16.0' class='grid'/><text x='44' y='20.0' class='ylab'>5</text><rect x='56.5' y='214.4' width='21.1' height='49.6' class='bar'/><rect x='86.6' y='264.0' width='21.1' height='0.0' class='bar'/><rect x='116.7' y='214.4' width='21.1' height='49.6' class='bar'/><rect x='146.8' y='264.0' width='21.1' height='0.0' class='bar'/><rect x='176.9' y='164.8' width='21.1' height='99.2' class='bar'/><rect x='207.0' y='65.6' width='21.1' height='198.4' class='bar'/><rect x='237.1' y='115.2' width='21.1' height='148.8' class='bar'/><rect x='267.3' y='264.0' width='21.1' height='0.0' class='bar'/><rect x='297.4' y='264.0' width='21.1' height='0.0' class='bar'/><rect x='327.5' y='214.4' width='21.1' height='49.6' class='bar'/><rect x='357.6' y='264.0' width='21.1' height='0.0' class='bar'/><rect x='387.7' y='115.2' width='21.1' height='148.8' class='bar'/><rect x='417.8' y='164.8' width='21.1' height='99.2' class='bar'/><rect x='447.9' y='214.4' width='21.1' height='49.6' class='bar'/><rect x='478.0' y='16.0' width='21.1' height='248.0' class='bar'/><rect x='508.1' y='115.2' width='21.1' height='148.8' class='bar'/><rect x='538.2' y='164.8' width='21.1' height='99.2' class='bar'/><rect x='568.3' y='164.8' width='21.1' height='99.2' class='bar'/><rect x='598.4' y='214.4' width='21.1' height='49.6' class='bar'/><text x='67.1' y='288' class='xlab'>2008</text><text x='127.3' y='288' class='xlab'>2010</text><text x='187.5' y='288' class='xlab'>2012</text><text x='247.7' y='288' class='xlab'>2014</text><text x='307.9' y='288' class='xlab'>2016</text><text x='368.1' y='288' class='xlab'>2018</text><text x='428.3' y='288' class='xlab'>2020</text><text x='488.5' y='288' class='xlab'>2022</text><text x='548.7' y='288' class='xlab'>2024</text><text x='608.9' y='288' class='xlab'>2026</text></svg>
+    </div>
+  </section>
+
+  <h2 class="section">Publications</h2>
+  <p class="count">31 works (2008–2026), most cited first.</p>
+  <ul class="papers">
+    <li class='paper'><a class='ptitle' href='https://doi.org/10.1093/bioinformatics/btq054' target='_blank' rel='noopener'>Skyline: an open source document editor for creating and analyzing targeted proteomics experiments</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2010 · Bioinformatics</span><span class='pcite'>4,998 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1038/nbt.2377' target='_blank' rel='noopener'>A cross-platform toolkit for mass spectrometry and proteomics</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2012 · Nature Biotechnology</span><span class='pcite'>4,348 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1073/pnas.1221132110' target='_blank' rel='noopener'>The PINK1–Parkin pathway promotes both mitophagy and selective respiratory chain turnover in vivo</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2013 · Proceedings of the National Academy of Sciences</span><span class='pcite'>479 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1021/pr5006636' target='_blank' rel='noopener'>Panorama: A Targeted Proteomics Knowledge Base</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2014 · Journal of Proteome Research</span><span class='pcite'>237 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1021/acs.jproteome.3c00357' target='_blank' rel='noopener'>Evaluating the Performance of the Astral Mass Analyzer for Quantitative Proteomics Using Data-Independent Acquisition</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2023 · Journal of Proteome Research</span><span class='pcite'>232 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1101/gr.155762.113' target='_blank' rel='noopener'>Integrative phenomics reveals insight into the structure of phenotypic diversity in budding yeast</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2013 · Genome Research</span><span class='pcite'>159 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1161/circheartfailure.113.000406' target='_blank' rel='noopener'>Global Proteomics and Pathway Analysis of Pressure-Overload–Induced Heart Failure and Its Attenuation by Mitochondrial-Targeted Peptides</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2013 · Circulation Heart Failure</span><span class='pcite'>154 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1021/acs.jproteome.2c00834' target='_blank' rel='noopener'>MSstats Version 4.0: Statistical Analyses of Quantitative Mass Spectrometry-Based Proteomic Experiments with Chromatography-Based Quantification at Scale</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2023 · Journal of Proteome Research</span><span class='pcite'>135 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1074/mcp.m112.026500' target='_blank' rel='noopener'>Maximizing Peptide Identification Events in Proteomic Workflows Using Data-Dependent Acquisition (DDA)</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2013 · Molecular &amp; Cellular Proteomics</span><span class='pcite'>128 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1373/clinchem.2017.282293' target='_blank' rel='noopener'>Skyline Performs as Well as Vendor Software in the Quantitative Analysis of Serum 25-Hydroxy Vitamin D and Vitamin D Binding Globulin</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2017 · Clinical Chemistry</span><span class='pcite'>95 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1038/s41596-022-00714-6' target='_blank' rel='noopener'>Utilizing Skyline to analyze lipidomics data containing liquid chromatography, ion mobility spectrometry and mass spectrometry dimensions</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2022 · Nature Protocols</span><span class='pcite'>63 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1080/15548627.2019.1586258' target='_blank' rel='noopener'>Autophagy accounts for approximately one-third of mitochondrial protein turnover and is protein selective</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2019 · Autophagy</span><span class='pcite'>59 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1074/mcp.o112.017699' target='_blank' rel='noopener'>Topograph, a Software Platform for Precursor Enrichment Corrected Global Protein Turnover Measurements</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2012 · Molecular &amp; Cellular Proteomics</span><span class='pcite'>58 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1021/acs.jproteome.1c00820' target='_blank' rel='noopener'>Development and Application of Multidimensional Lipid Libraries to Investigate Lipidomic Dysregulation Related to Smoke Inhalation Injury Severity</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2021 · Journal of Proteome Research</span><span class='pcite'>46 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1093/bioinformatics/btu148' target='_blank' rel='noopener'>A framework for installable external tools in Skyline</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2014 · Bioinformatics</span><span class='pcite'>36 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1038/s41592-020-00986-4' target='_blank' rel='noopener'>Avant-garde: an automated data-driven DIA data curation tool</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2020 · Nature Methods</span><span class='pcite'>32 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1002/cyto.a.20600' target='_blank' rel='noopener'>Development of an automated analysis system for data from flow cytometric intracellular cytokine staining assays from clinical vaccine trials</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2008 · Cytometry Part A</span><span class='pcite'>21 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1021/acs.jproteome.4c00599' target='_blank' rel='noopener'>Hybrid Quadrupole Mass Filter–Radial Ejection Linear Ion Trap and Intelligent Data Acquisition Enable Highly Multiplex Targeted Proteomics</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2024 · Journal of Proteome Research</span><span class='pcite'>16 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1016/j.str.2022.05.017' target='_blank' rel='noopener'>Cullin-independent recognition of HHARI substrates by a dynamic RBR catalytic domain</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2022 · Structure</span><span class='pcite'>16 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1021/acs.analchem.4c00829' target='_blank' rel='noopener'>A Workflow for Improved Analysis of Cross-Linking Mass Spectrometry Data Integrating Parallel Accumulation-Serial Fragmentation with MeroX and Skyline</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2024 · Analytical Chemistry</span><span class='pcite'>13 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1016/j.crmeth.2023.100521' target='_blank' rel='noopener'>Targeted proteomics data interpretation with DeepMRM</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2023 · Cell Reports Methods</span><span class='pcite'>9 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1021/acs.jproteome.2c00173' target='_blank' rel='noopener'>TurnoveR: A Skyline External Tool for Analysis of Protein Turnover in Metabolic Labeling Studies</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2022 · Journal of Proteome Research</span><span class='pcite'>8 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1021/acs.jproteome.5c00593' target='_blank' rel='noopener'>Evaluation of a Prototype Orbitrap Astral Zoom Mass Spectrometer for Quantitative Proteomics─Beyond Identification Lists</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2025 · Journal of Proteome Research</span><span class='pcite'>7 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1093/bioinformatics/btaa547' target='_blank' rel='noopener'>Audit logs to enforce document integrity in Skyline and Panorama</a><div class='pmeta'><span class='badge badge-article'>article</span><span class='pmeta-text'>2020 · Bioinformatics</span><span class='pcite'>5 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.64898/2026.03.27.714846' target='_blank' rel='noopener'>Carafe2 enables high quality in silico spectral library generation for timsTOF data-independent acquisition proteomics</a><div class='pmeta'><span class='badge badge-preprint'>preprint</span><span class='pmeta-text'>2026 · bioRxiv (Cold Spring Harbor Laboratory)</span><span class='pcite'>2 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1101/2025.05.27.656394' target='_blank' rel='noopener'>Improved quantitation in data-independent acquisition proteomics via retention time boundary imputation</a><div class='pmeta'><span class='badge badge-preprint'>preprint</span><span class='pmeta-text'>2025 · bioRxiv (Cold Spring Harbor Laboratory)</span><span class='pcite'>2 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.1039/9781782626985-00154' target='_blank' rel='noopener'>MS1 Label-free Quantification Using Ion Intensity Chromatograms in Skyline (Research and Clinical Applications)</a><div class='pmeta'><span class='badge badge-book-chapter'>book-chapter</span><span class='pmeta-text'>2014</span><span class='pcite'>2 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.5281/zenodo.6374208' target='_blank' rel='noopener'>Utilizing Skyline to analyze lipidomics data containing liquid chromatography, ion mobility spectrometry and mass spectrometry dimensions</a><div class='pmeta'><span class='badge badge-dataset'>dataset</span><span class='pmeta-text'>2022 · Zenodo (CERN European Organization for Nuclear Research)</span><span class='pcite'>0 citations</span></div></li><li class='paper'><a class='ptitle' href='https://zenodo.org/record/6374209' target='_blank' rel='noopener'>Utilizing Skyline to analyze lipidomics data containing liquid chromatography, ion mobility spectrometry and mass spectrometry dimensions</a><div class='pmeta'><span class='badge badge-dataset'>dataset</span><span class='pmeta-text'>2022 · Zenodo (CERN European Organization for Nuclear Research)</span><span class='pcite'>0 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.6084/m9.figshare.7879382.v1' target='_blank' rel='noopener'>Autophagy accounts for approximately one-third of mitochondrial protein turnover and is protein selective</a><div class='pmeta'><span class='badge badge-dataset'>dataset</span><span class='pmeta-text'>2019 · Figshare</span><span class='pcite'>0 citations</span></div></li><li class='paper'><a class='ptitle' href='https://doi.org/10.6084/m9.figshare.7879382' target='_blank' rel='noopener'>Autophagy accounts for approximately one-third of mitochondrial protein turnover and is protein selective</a><div class='pmeta'><span class='badge badge-dataset'>dataset</span><span class='pmeta-text'>2019 · Figshare</span><span class='pcite'>0 citations</span></div></li>
+  </ul>
+
+  <footer>
+    Data from <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a> ·
+    ORCID <a href="https://orcid.org/0000-0003-1674-0794" target="_blank" rel="noopener">0000-0003-1674-0794</a>
+  </footer>
+</div>
+<script>
+  var root = document.documentElement, btn = document.getElementById('themeToggle');
+  function apply(t) {
+    root.setAttribute('data-theme', t);
+    btn.textContent = t === 'dark' ? '☀️ Light' : '🌙 Dark';
+  }
+  var saved = localStorage.getItem('theme');
+  if (!saved && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) saved = 'dark';
+  apply(saved || 'light');
+  btn.addEventListener('click', function () {
+    var t = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    apply(t); localStorage.setItem('theme', t);
+  });
+</script>
+</body>
+</html>
