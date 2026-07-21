@@ -1,0 +1,1607 @@
+{
+  "orcid": "0000-0003-1674-0794",
+  "count": 31,
+  "papers": [
+    {
+      "id": "https://openalex.org/W7147614722",
+      "doi": "https://doi.org/10.64898/2026.03.27.714846",
+      "title": "Carafe2 enables high quality <i>in silico</i> spectral library generation for timsTOF data-independent acquisition proteomics",
+      "year": 2026,
+      "type": "preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "url": "https://doi.org/10.64898/2026.03.27.714846",
+      "cited_by_count": 2,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        }
+      ],
+      "authors": [
+        "Bo Wen",
+        "J. Sebastian Paez",
+        "Chris Hsu",
+        "Daniele Canzani",
+        "Alexis Taylor Chang",
+        "Nicholas Shulman",
+        "Brendan MacLean",
+        "Matthew D. Berg",
+        "Judit Villén",
+        "William E. Fondrie",
+        "Lindsay K. Pino",
+        "Michael J. MacCoss",
+        "William Stafford Noble"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4415407403",
+      "doi": "https://doi.org/10.1021/acs.jproteome.5c00593",
+      "title": "Evaluation of a Prototype Orbitrap Astral Zoom Mass Spectrometer for Quantitative Proteomics─Beyond Identification Lists",
+      "year": 2025,
+      "type": "article",
+      "venue": "Journal of Proteome Research",
+      "url": "https://doi.org/10.1021/acs.jproteome.5c00593",
+      "cited_by_count": 7,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 7
+        }
+      ],
+      "authors": [
+        "Chris Hsu",
+        "Nicholas Shulman",
+        "Hamish Stewart",
+        "J. Petzoldt",
+        "Anna Pashkova",
+        "Deanna L. Plubell",
+        "Eduard Denisov",
+        "Bernd Hagedorn",
+        "Nicolaie Eugen Damoc",
+        "Brendan MacLean",
+        "Philip M. Remes",
+        "Jesse D. Canterbury",
+        "Alexander Makarov",
+        "Christian Hock",
+        "Vlad Zabrouskov",
+        "Christine C. Wu",
+        "Michael J. MacCoss"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4410925629",
+      "doi": "https://doi.org/10.1101/2025.05.27.656394",
+      "title": "Improved quantitation in data-independent acquisition proteomics via retention time boundary imputation",
+      "year": 2025,
+      "type": "preprint",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "url": "https://doi.org/10.1101/2025.05.27.656394",
+      "cited_by_count": 2,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 1
+        }
+      ],
+      "authors": [
+        "Lincoln Harris",
+        "Michael Riffle",
+        "Nicholas Shulman",
+        "William E. Fondrie",
+        "Christine C. Wu",
+        "Danielle P. Johnson Erickson",
+        "Alec Morimoto",
+        "Benjamin A. Shaver",
+        "Taylor N. Stein",
+        "Ning Cao",
+        "Eric C. Ford",
+        "William Stafford Noble",
+        "Michael J. MacCoss"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4403887838",
+      "doi": "https://doi.org/10.1021/acs.jproteome.4c00599",
+      "title": "Hybrid Quadrupole Mass Filter–Radial Ejection Linear Ion Trap and Intelligent Data Acquisition Enable Highly Multiplex Targeted Proteomics",
+      "year": 2024,
+      "type": "article",
+      "venue": "Journal of Proteome Research",
+      "url": "https://doi.org/10.1021/acs.jproteome.4c00599",
+      "cited_by_count": 16,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        }
+      ],
+      "authors": [
+        "Philip M. Remes",
+        "Cristina C. Jacob",
+        "Lilian R. Heil",
+        "Nicholas Shulman",
+        "Brendan MacLean",
+        "Michael J. MacCoss"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4396571612",
+      "doi": "https://doi.org/10.1021/acs.analchem.4c00829",
+      "title": "A Workflow for Improved Analysis of Cross-Linking Mass Spectrometry Data Integrating Parallel Accumulation-Serial Fragmentation with MeroX and Skyline",
+      "year": 2024,
+      "type": "article",
+      "venue": "Analytical Chemistry",
+      "url": "https://doi.org/10.1021/acs.analchem.4c00829",
+      "cited_by_count": 13,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        }
+      ],
+      "authors": [
+        "Juan Camilo Rojas Echeverri",
+        "Frank Hause",
+        "Claudio Iacobucci",
+        "Christian Ihling",
+        "Dirk Tänzler",
+        "Nicholas Shulman",
+        "Michael Riffle",
+        "Brendan MacLean",
+        "Andrea Sinz"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4386532751",
+      "doi": "https://doi.org/10.1021/acs.jproteome.3c00357",
+      "title": "Evaluating the Performance of the Astral Mass Analyzer for Quantitative Proteomics Using Data-Independent Acquisition",
+      "year": 2023,
+      "type": "article",
+      "venue": "Journal of Proteome Research",
+      "url": "https://doi.org/10.1021/acs.jproteome.3c00357",
+      "cited_by_count": 232,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 27
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 107
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 85
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 12
+        }
+      ],
+      "authors": [
+        "Lilian R. Heil",
+        "Eugen Damoc",
+        "Tabiwang N. Arrey",
+        "Anna Pashkova",
+        "Eduard Denisov",
+        "J. Petzoldt",
+        "Amelia C. Peterson",
+        "Chris Hsu",
+        "Brian C. Searle",
+        "Nicholas Shulman",
+        "Michael Riffle",
+        "B. Connolly",
+        "Brendan MacLean",
+        "Philip M. Remes",
+        "Michael W. Senko",
+        "Hamish Stewart",
+        "Christian Hock",
+        "Alexander Makarov",
+        "Daniel Hermanson",
+        "Vlad Zabrouskov",
+        "Christine C. Wu",
+        "Michael J. MacCoss"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4362602490",
+      "doi": "https://doi.org/10.1021/acs.jproteome.2c00834",
+      "title": "MSstats Version 4.0: Statistical Analyses of Quantitative Mass Spectrometry-Based Proteomic Experiments with Chromatography-Based Quantification at Scale",
+      "year": 2023,
+      "type": "article",
+      "venue": "Journal of Proteome Research",
+      "url": "https://doi.org/10.1021/acs.jproteome.2c00834",
+      "cited_by_count": 135,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 38
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 50
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 34
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 13
+        }
+      ],
+      "authors": [
+        "Devon Kohler",
+        "Mateusz Staniak",
+        "Tsung‐Heng Tsai",
+        "Ting Huang",
+        "Nicholas Shulman",
+        "Oliver M. Bernhardt",
+        "Brendan MacLean",
+        "Alexey I. Nesvizhskii",
+        "Lukas Reiter",
+        "Eduard Sabidó",
+        "Meena Choi",
+        "Olga Vitek"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4383905136",
+      "doi": "https://doi.org/10.1016/j.crmeth.2023.100521",
+      "title": "Targeted proteomics data interpretation with DeepMRM",
+      "year": 2023,
+      "type": "article",
+      "venue": "Cell Reports Methods",
+      "url": "https://doi.org/10.1016/j.crmeth.2023.100521",
+      "cited_by_count": 9,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 3
+        }
+      ],
+      "authors": [
+        "Jungkap Park",
+        "Christopher Wilkins",
+        "Dmitry M. Avtonomov",
+        "Jiwon Hong",
+        "Seunghoon Back",
+        "Hokeun Kim",
+        "Nicholas Shulman",
+        "Brendan MacLean",
+        "Sang‐Won Lee",
+        "Sangtae Kim"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4285087833",
+      "doi": "https://doi.org/10.1038/s41596-022-00714-6",
+      "title": "Utilizing Skyline to analyze lipidomics data containing liquid chromatography, ion mobility spectrometry and mass spectrometry dimensions",
+      "year": 2022,
+      "type": "article",
+      "venue": "Nature Protocols",
+      "url": "https://doi.org/10.1038/s41596-022-00714-6",
+      "cited_by_count": 63,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 16
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 21
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 18
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 4
+        }
+      ],
+      "authors": [
+        "Kaylie I. Kirkwood‐Donelson",
+        "Brian Pratt",
+        "Nicholas Shulman",
+        "Kaipo Tamura",
+        "Michael J. MacCoss",
+        "Brendan MacLean",
+        "Erin Baker"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4283031070",
+      "doi": "https://doi.org/10.1016/j.str.2022.05.017",
+      "title": "Cullin-independent recognition of HHARI substrates by a dynamic RBR catalytic domain",
+      "year": 2022,
+      "type": "article",
+      "venue": "Structure",
+      "url": "https://doi.org/10.1016/j.str.2022.05.017",
+      "cited_by_count": 16,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 3
+        }
+      ],
+      "authors": [
+        "Katherine H. Reiter",
+        "Alex Zelter",
+        "Maria K. Janowska",
+        "Michael Riffle",
+        "Nicholas Shulman",
+        "Brendan MacLean",
+        "Kaipo Tamura",
+        "Matthew Chambers",
+        "Michael J. MacCoss",
+        "Trisha N. Davis",
+        "Miklós Guttman",
+        "Peter S. Brzović",
+        "Rachel E. Klevit"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4297262970",
+      "doi": "https://doi.org/10.1021/acs.jproteome.2c00173",
+      "title": "TurnoveR: A Skyline External Tool for Analysis of Protein Turnover in Metabolic Labeling Studies",
+      "year": 2022,
+      "type": "article",
+      "venue": "Journal of Proteome Research",
+      "url": "https://doi.org/10.1021/acs.jproteome.2c00173",
+      "cited_by_count": 8,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        }
+      ],
+      "authors": [
+        "Nathan Basisty",
+        "Nicholas Shulman",
+        "Cameron Wehrfritz",
+        "Alexandra N. Marsh",
+        "Samah Shah",
+        "Jacob Rose",
+        "Scott M. Ebert",
+        "Matthew J. Miller",
+        "Dao‐Fu Dai",
+        "Peter S. Rabinovitch",
+        "Christopher M. Adams",
+        "Michael J. MacCoss",
+        "Brendan MacLean",
+        "Birgit Schilling"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4393686113",
+      "doi": "https://doi.org/10.5281/zenodo.6374208",
+      "title": "Utilizing Skyline to analyze lipidomics data containing liquid chromatography, ion mobility spectrometry and mass spectrometry dimensions",
+      "year": 2022,
+      "type": "dataset",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "url": "https://doi.org/10.5281/zenodo.6374208",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "authors": [
+        "Kaylie I. Kirkwood‐Donelson",
+        "Brian Pratt",
+        "Nicholas Shulman",
+        "Kaipo Tamura",
+        "Michael J. MacCoss",
+        "Brendan MacLean",
+        "Erin Baker"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4394023432",
+      "doi": "https://doi.org/10.5281/zenodo.6374209",
+      "title": "Utilizing Skyline to analyze lipidomics data containing liquid chromatography, ion mobility spectrometry and mass spectrometry dimensions",
+      "year": 2022,
+      "type": "dataset",
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "url": "https://zenodo.org/record/6374209",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "authors": [
+        "Kaylie I. Kirkwood‐Donelson",
+        "Brian Pratt",
+        "Nicholas Shulman",
+        "Kaipo Tamura",
+        "Michael J. MacCoss",
+        "Brendan MacLean",
+        "Erin Baker"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4220969831",
+      "doi": "https://doi.org/10.1021/acs.jproteome.1c00820",
+      "title": "Development and Application of Multidimensional Lipid Libraries to Investigate Lipidomic Dysregulation Related to Smoke Inhalation Injury Severity",
+      "year": 2021,
+      "type": "article",
+      "venue": "Journal of Proteome Research",
+      "url": "https://doi.org/10.1021/acs.jproteome.1c00820",
+      "cited_by_count": 46,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 16
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        }
+      ],
+      "authors": [
+        "Kaylie I. Kirkwood‐Donelson",
+        "Michael W. Christopher",
+        "Jefferey L. Burgess",
+        "Sally R. Littau",
+        "Kevin N Foster",
+        "Karen Richey",
+        "Brian Pratt",
+        "Nicholas Shulman",
+        "Kaipo Tamura",
+        "Michael J. MacCoss",
+        "Brendan MacLean",
+        "Erin Baker"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3102544095",
+      "doi": "https://doi.org/10.1038/s41592-020-00986-4",
+      "title": "Avant-garde: an automated data-driven DIA data curation tool",
+      "year": 2020,
+      "type": "article",
+      "venue": "Nature Methods",
+      "url": "https://doi.org/10.1038/s41592-020-00986-4",
+      "cited_by_count": 32,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 1
+        }
+      ],
+      "authors": [
+        "Alvaro Sebastian Vaca Jácome",
+        "Ryan Peckner",
+        "Nicholas Shulman",
+        "Karsten Krug",
+        "Katherine C. DeRuff",
+        "Adam Officer",
+        "Karen E. Christianson",
+        "Brendan MacLean",
+        "Michael J. MacCoss",
+        "Steven A. Carr",
+        "Jacob D. Jaffe"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3030308483",
+      "doi": "https://doi.org/10.1093/bioinformatics/btaa547",
+      "title": "Audit logs to enforce document integrity in Skyline and Panorama",
+      "year": 2020,
+      "type": "article",
+      "venue": "Bioinformatics",
+      "url": "https://doi.org/10.1093/bioinformatics/btaa547",
+      "cited_by_count": 5,
+      "counts_by_year": [
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 2
+        }
+      ],
+      "authors": [
+        "Tobias Rohde",
+        "Rita Chupalov",
+        "Nicholas Shulman",
+        "Vagisha Sharma",
+        "Josh Eckels",
+        "Brian Pratt",
+        "Michael J. MacCoss",
+        "Brendan MacLean"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W2921505376",
+      "doi": "https://doi.org/10.1080/15548627.2019.1586258",
+      "title": "Autophagy accounts for approximately one-third of mitochondrial protein turnover and is protein selective",
+      "year": 2019,
+      "type": "article",
+      "venue": "Autophagy",
+      "url": "https://doi.org/10.1080/15548627.2019.1586258",
+      "cited_by_count": 59,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 12
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 5
+        }
+      ],
+      "authors": [
+        "Evelyn S. Vincow",
+        "Ruth E. Thomas",
+        "Gennifer E. Merrihew",
+        "Nicholas Shulman",
+        "Theo K. Bammler",
+        "James W. MacDonald",
+        "Michael J. MacCoss",
+        "Leo J. Pallanck"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4394282358",
+      "doi": "https://doi.org/10.6084/m9.figshare.7879382.v1",
+      "title": "Autophagy accounts for approximately one-third of mitochondrial protein turnover and is protein selective",
+      "year": 2019,
+      "type": "dataset",
+      "venue": "Figshare",
+      "url": "https://doi.org/10.6084/m9.figshare.7879382.v1",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "authors": [
+        "Evelyn S. Vincow",
+        "Ruth E. Thomas",
+        "Gennifer E. Merrihew",
+        "Nicholas Shulman",
+        "Theo K. Bammler",
+        "James W. MacDonald",
+        "Michael J. MacCoss",
+        "Leo J. Pallanck"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4394304622",
+      "doi": "https://doi.org/10.6084/m9.figshare.7879382",
+      "title": "Autophagy accounts for approximately one-third of mitochondrial protein turnover and is protein selective",
+      "year": 2019,
+      "type": "dataset",
+      "venue": "Figshare",
+      "url": "https://doi.org/10.6084/m9.figshare.7879382",
+      "cited_by_count": 0,
+      "counts_by_year": [],
+      "authors": [
+        "Evelyn S. Vincow",
+        "Ruth E. Thomas",
+        "Gennifer E. Merrihew",
+        "Nicholas Shulman",
+        "Theo K. Bammler",
+        "James W. MacDonald",
+        "Michael J. MacCoss",
+        "Leo J. Pallanck"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W2771100922",
+      "doi": "https://doi.org/10.1373/clinchem.2017.282293",
+      "title": "Skyline Performs as Well as Vendor Software in the Quantitative Analysis of Serum 25-Hydroxy Vitamin D and Vitamin D Binding Globulin",
+      "year": 2017,
+      "type": "article",
+      "venue": "Clinical Chemistry",
+      "url": "https://doi.org/10.1373/clinchem.2017.282293",
+      "cited_by_count": 95,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 12
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 36
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 1
+        }
+      ],
+      "authors": [
+        "Clark M. Henderson",
+        "Nicholas Shulman",
+        "Brendan MacLean",
+        "Michael J. MacCoss",
+        "Andrew N. Hoofnagle"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W1995403127",
+      "doi": "https://doi.org/10.1021/pr5006636",
+      "title": "Panorama: A Targeted Proteomics Knowledge Base",
+      "year": 2014,
+      "type": "article",
+      "venue": "Journal of Proteome Research",
+      "url": "https://doi.org/10.1021/pr5006636",
+      "cited_by_count": 237,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 14
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 18
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 18
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 17
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 28
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 26
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 15
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 27
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 24
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 24
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 18
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 4
+        }
+      ],
+      "authors": [
+        "Vagisha Sharma",
+        "Josh Eckels",
+        "Greg Taylor",
+        "Nicholas Shulman",
+        "Andrew B. Stergachis",
+        "Shannon Joyner",
+        "Ping Yan",
+        "Jeffrey R. Whiteaker",
+        "Goran N. Halusa",
+        "Birgit Schilling",
+        "Bradford W. Gibson",
+        "Christopher M. Colangelo",
+        "Amanda G. Paulovich",
+        "Steven A. Carr",
+        "Jacob D. Jaffe",
+        "Michael J. MacCoss",
+        "Brendan MacLean"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W2101186567",
+      "doi": "https://doi.org/10.1093/bioinformatics/btu148",
+      "title": "A framework for installable external tools in Skyline",
+      "year": 2014,
+      "type": "article",
+      "venue": "Bioinformatics",
+      "url": "https://doi.org/10.1093/bioinformatics/btu148",
+      "cited_by_count": 36,
+      "counts_by_year": [
+        {
+          "year": 2024,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 3
+        }
+      ],
+      "authors": [
+        "Daniel Broudy",
+        "Trevor Killeen",
+        "Meena Choi",
+        "Nicholas Shulman",
+        "D.R. Mani",
+        "Susan E. Abbatiello",
+        "D.R. Mani",
+        "Rushdy Ahmad",
+        "Alexandria K. Sahu",
+        "Birgit Schilling",
+        "Kaipo Tamura",
+        "Yuval Boss",
+        "Vagisha Sharma",
+        "Bradford W. Gibson",
+        "Steven A. Carr",
+        "Olga Vitek",
+        "Michael J. MacCoss",
+        "Brendan MacLean"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W2405229414",
+      "doi": "https://doi.org/10.1039/9781782626985-00154",
+      "title": "MS1 Label-free Quantification Using Ion Intensity Chromatograms in Skyline (Research and Clinical Applications)",
+      "year": 2014,
+      "type": "book-chapter",
+      "venue": null,
+      "url": "https://doi.org/10.1039/9781782626985-00154",
+      "cited_by_count": 2,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        }
+      ],
+      "authors": [
+        "Birgit Schilling",
+        "Brendan MacLean",
+        "Alexandria K. D’Souza",
+        "Matthew J. Rardin",
+        "Nicholas Shulman",
+        "Michael J. MacCoss",
+        "Bradford W. Gibson"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W2011124366",
+      "doi": "https://doi.org/10.1073/pnas.1221132110",
+      "title": "The PINK1–Parkin pathway promotes both mitophagy and selective respiratory chain turnover in vivo",
+      "year": 2013,
+      "type": "article",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "url": "https://doi.org/10.1073/pnas.1221132110",
+      "cited_by_count": 479,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 21
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 21
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 22
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 42
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 39
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 49
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 34
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 36
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 35
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 46
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 41
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 58
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 24
+        }
+      ],
+      "authors": [
+        "Evelyn S. Vincow",
+        "Gennifer E. Merrihew",
+        "Ruth E. Thomas",
+        "Nicholas Shulman",
+        "Richard P. Beyer",
+        "Michael J. MacCoss",
+        "Leo J. Pallanck"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W2098408786",
+      "doi": "https://doi.org/10.1161/circheartfailure.113.000406",
+      "title": "Global Proteomics and Pathway Analysis of Pressure-Overload–Induced Heart Failure and Its Attenuation by Mitochondrial-Targeted Peptides",
+      "year": 2013,
+      "type": "article",
+      "venue": "Circulation Heart Failure",
+      "url": "https://doi.org/10.1161/circheartfailure.113.000406",
+      "cited_by_count": 154,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 14
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 15
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 19
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 14
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 15
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 12
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 3
+        }
+      ],
+      "authors": [
+        "Dao‐Fu Dai",
+        "Edward J. Hsieh",
+        "Tony Chen",
+        "Lorena Menéndez",
+        "Nathan Basisty",
+        "Lauren Tsai",
+        "Richard P. Beyer",
+        "David A. Crispin",
+        "Nicholas Shulman",
+        "Hazel H. Szeto",
+        "Rong Tian",
+        "Michael J. MacCoss",
+        "Peter S. Rabinovitch"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W2118943329",
+      "doi": "https://doi.org/10.1074/mcp.m112.026500",
+      "title": "Maximizing Peptide Identification Events in Proteomic Workflows Using Data-Dependent Acquisition (DDA)",
+      "year": 2013,
+      "type": "article",
+      "venue": "Molecular & Cellular Proteomics",
+      "url": "https://doi.org/10.1074/mcp.m112.026500",
+      "cited_by_count": 128,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 12
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 15
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 19
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 13
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 12
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 8
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 1
+        }
+      ],
+      "authors": [
+        "Nicholas W. Bateman",
+        "Scott P. Goulding",
+        "Nicholas Shulman",
+        "Avinash K. Gadok",
+        "Karen K. Szumlinski",
+        "Michael J. MacCoss",
+        "Christine C. Wu"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W2160588775",
+      "doi": "https://doi.org/10.1101/gr.155762.113",
+      "title": "Integrative phenomics reveals insight into the structure of phenotypic diversity in budding yeast",
+      "year": 2013,
+      "type": "article",
+      "venue": "Genome Research",
+      "url": "https://doi.org/10.1101/gr.155762.113",
+      "cited_by_count": 159,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 17
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 9
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 20
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 23
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 31
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 17
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 5
+        }
+      ],
+      "authors": [
+        "Daniel A. Skelly",
+        "Gennifer E. Merrihew",
+        "Michael Riffle",
+        "Caitlin Connelly",
+        "Emily O. Kerr",
+        "Marnie Johansson",
+        "Daniel Jaschob",
+        "Beth Graczyk",
+        "Nicholas Shulman",
+        "Jon Wakefield",
+        "Sara J. Cooper",
+        "Stanley Fields",
+        "William Stafford Noble",
+        "Eric G. Muller",
+        "Trisha N. Davis",
+        "Maitreya J. Dunham",
+        "Michael J. MacCoss",
+        "Joshua M. Akey"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W2081465448",
+      "doi": "https://doi.org/10.1038/nbt.2377",
+      "title": "A cross-platform toolkit for mass spectrometry and proteomics",
+      "year": 2012,
+      "type": "article",
+      "venue": "Nature Biotechnology",
+      "url": "https://doi.org/10.1038/nbt.2377",
+      "cited_by_count": 4348,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 303
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 613
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 634
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 538
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 513
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 457
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 358
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 272
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 187
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 135
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 130
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 108
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 67
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 28
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 1
+        }
+      ],
+      "authors": [
+        "Matthew Chambers",
+        "Brendan MacLean",
+        "Robert Burke",
+        "Dario Amodei",
+        "Daniel Ruderman",
+        "Steffen Neumann",
+        "Laurent Gatto",
+        "Bernd Fischer",
+        "Brian Pratt",
+        "Jarrett D. Egertson",
+        "Katherine Hoff",
+        "Darren Kessner",
+        "Natalie Tasman",
+        "Nicholas Shulman",
+        "Barbara Frewen",
+        "Tahmina A Baker",
+        "Mi‐Youn Brusniak",
+        "Christopher Paulse",
+        "David M. Creasy",
+        "Lisa Flashner",
+        "Kian Kani",
+        "Chris Moulding",
+        "Sean L. Seymour",
+        "Lydia M. Nuwaysir",
+        "Brent Lefebvre",
+        "Frank E. Kuhlmann",
+        "Joe Roark",
+        "Rainer Paape",
+        "Detlev Suckau",
+        "Tina Hemenway",
+        "Andreas Hühmer",
+        "James Langridge",
+        "B. Connolly",
+        "Trey Chadick",
+        "Krisztina Holly",
+        "Josh Eckels",
+        "Eric W. Deutsch",
+        "Robert L. Moritz",
+        "Jonathan E. Katz",
+        "David B. Agus",
+        "Michael J. MacCoss",
+        "David L. Tabb",
+        "Parag Mallick"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W2120521594",
+      "doi": "https://doi.org/10.1074/mcp.o112.017699",
+      "title": "Topograph, a Software Platform for Precursor Enrichment Corrected Global Protein Turnover Measurements",
+      "year": 2012,
+      "type": "article",
+      "venue": "Molecular & Cellular Proteomics",
+      "url": "https://doi.org/10.1074/mcp.o112.017699",
+      "cited_by_count": 58,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 7
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 11
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 5
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 1
+        }
+      ],
+      "authors": [
+        "Edward J. Hsieh",
+        "Nicholas Shulman",
+        "Dao‐Fu Dai",
+        "Evelyn S. Vincow",
+        "Pabalu P. Karunadharma",
+        "Leo J. Pallanck",
+        "Peter S. Rabinovitch",
+        "Michael J. MacCoss"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W2141091417",
+      "doi": "https://doi.org/10.1093/bioinformatics/btq054",
+      "title": "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments",
+      "year": 2010,
+      "type": "article",
+      "venue": "Bioinformatics",
+      "url": "https://doi.org/10.1093/bioinformatics/btq054",
+      "cited_by_count": 4998,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 163
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 333
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 475
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 462
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 426
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 486
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 538
+        },
+        {
+          "year": 2019,
+          "cited_by_count": 422
+        },
+        {
+          "year": 2018,
+          "cited_by_count": 340
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 328
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 302
+        },
+        {
+          "year": 2015,
+          "cited_by_count": 237
+        },
+        {
+          "year": 2014,
+          "cited_by_count": 191
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 133
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 94
+        }
+      ],
+      "authors": [
+        "Brendan MacLean",
+        "Daniela M. Tomazela",
+        "Nicholas Shulman",
+        "Matthew Chambers",
+        "Gregory L. Finney",
+        "Barbara Frewen",
+        "Randall Kern",
+        "David L. Tabb",
+        "D.C. Liebler",
+        "Michael J. MacCoss"
+      ]
+    },
+    {
+      "id": "https://openalex.org/W2028488930",
+      "doi": "https://doi.org/10.1002/cyto.a.20600",
+      "title": "Development of an automated analysis system for data from flow cytometric intracellular cytokine staining assays from clinical vaccine trials",
+      "year": 2008,
+      "type": "article",
+      "venue": "Cytometry Part A",
+      "url": "https://doi.org/10.1002/cyto.a.20600",
+      "cited_by_count": 21,
+      "counts_by_year": [
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2020,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2016,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2013,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2012,
+          "cited_by_count": 5
+        }
+      ],
+      "authors": [
+        "Nicholas Shulman",
+        "Matthew Bellew",
+        "George Snelling",
+        "Donald Carter",
+        "Yunda Huang",
+        "Hongli Li",
+        "Steven G. Self",
+        "M. Juliana McElrath",
+        "Stephen C. De Rosa"
+      ]
+    }
+  ]
+}

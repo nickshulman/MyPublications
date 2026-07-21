@@ -1,0 +1,8 @@
+{
+  "_notes": "Cleaning choices made 2026-07-21 by Nick, applied by fetch_papers.py after fetching so a re-run reproduces them. Keep datasets and preprint-only works; drop only preprints that duplicate a published article; relabel the 2013 Genome Research yeast paper (OpenAlex mis-typed it as a preprint).",
+  "drop_duplicate_preprints": true,
+  "exclude_ids": [],
+  "retype": {
+    "https://openalex.org/W2160588775": "article"
+  }
+}
