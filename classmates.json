@@ -1,5 +1,5 @@
 {
-  "_notes": "Links to classmates' and instructors' workshop publication pages (added 2026-07-21). URLs follow https://<username>.github.io/MyPublications/. Some classmates hadn't published to GitHub Pages yet when added, so those links may 404 until they publish (expected shortly). Edit this list freely, then re-run build_page.py to update the Workshop directory. To rename a placeholder or add someone, just edit 'name'/'url' here.",
+  "_notes": "Links to classmates' and instructors' workshop publication pages (added 2026-07-21). URLs follow https://<username>.github.io/MyPublications/. Some links may 404 until that person turns on GitHub Pages (expected shortly). 'tomvaiuw' is a placeholder: their page shows no name (HDL/lipoprotein biology, UW) — rename when known. Edit freely, then re-run build_page.py.",
   "links": [
     {"name": "Lindsay Pino", "url": "https://lindsaypino.github.io/MyPublications/"},
     {"name": "Georgia Tsambos", "url": "https://gtsambos.github.io/MyPublications/"},
@@ -11,7 +11,9 @@
     {"name": "Gennifer Merrihew", "url": "https://gennmerr.github.io/MyPublications/"},
     {"name": "Lucas Narisawa", "url": "https://lnarisawa.github.io/MyPublications/"},
     {"name": "Chris Weir", "url": "https://chrisjweir.github.io/MyPublications/"},
-    {"name": "agentilhomme", "url": "https://agentilhomme.github.io/MyPublications/"},
+    {"name": "Anais S. Gentilhomme", "url": "https://agentilhomme.github.io/MyPublications/"},
+    {"name": "Lauren Fields", "url": "https://laurenfields.github.io/MyPublications/"},
+    {"name": "tomvaiuw", "url": "https://tomvaiuw.github.io/MyPublications/"},
     {"name": "Brendan MacLean", "url": "https://gurizo.github.io/MyPublications/"},
     {"name": "Michael J. MacCoss", "url": "https://vagisha.github.io/MyPublications-3/"},
     {"name": "MacCoss Publications", "url": "https://markbelangerinwa.github.io/MyPublications/"}
